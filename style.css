@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 94%);
+    display: grid;
+    place-content: center;
+}
+.container{
+    width: 400px;
+    background: #020024;
+    background: linear-gradient(198deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 73%);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 22px;
+}
+.container h1{
+    margin-bottom: 25px;
+}
+.container .input-text{
+    width: 100%;
+    margin-bottom: 17px;
+}
+.container .input-text input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid black;
+    margin-bottom: 22px;
+}
+.container .input-text button{
+    width: 100%;
+    padding: 10px;
+    background: #833AB4;
+    background: linear-gradient(350deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 6px;
+    border: 3px solid black;
+    color: black;
+    font-weight: 570;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+.container .input-text button:active{
+    scale: 0.8;
+}
+.container img{
+    width:340px;
+    height: 340px;
+    border-radius: 6px;
+    border: 2px solid black;
+    object-fit: contain;
+
+}
